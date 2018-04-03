@@ -1,3 +1,17 @@
+// zad 9.3
+var text = 'Velociraptor is a genus of herbivorous ceratopsid dinosaur that first appeared during the late Maastrichtian stage of the late Cretaceous period.';
+var dinosaur = 'triceratops';
+var dinosaurUpperCased = dinosaur.toUpperCase();
+console.log(dinosaurUpperCased); //sprawdzam skrypt
+var textCharsAfter = text.replace('Velociraptor', dinosaurUpperCased);
+console.log(textCharsAfter); // sprawdzam .. :) 
+var halfText = textCharsAfter.length/2;
+console.log(halfText);
+var dinosaurFinalText = textCharsAfter.substr(0, halfText);
+console.log(dinosaurFinalText);
+
+
+
 //charAt() Funkcja zwraca znak, który znajduje się na określonej pozycji w ciągu znaków (stringu). Aby sprawdzić, jaka litera znajduje się na danym miejscu, należy wskazać jej indeks jako parametr.
 var txt ='Example';
 
