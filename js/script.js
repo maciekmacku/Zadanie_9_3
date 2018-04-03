@@ -12,6 +12,9 @@ console.log(dinosaurFinalText);
 
 
 
+
+
+
 //charAt() Funkcja zwraca znak, który znajduje się na określonej pozycji w ciągu znaków (stringu). Aby sprawdzić, jaka litera znajduje się na danym miejscu, należy wskazać jej indeks jako parametr.
 var txt ='Example';
 
